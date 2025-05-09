@@ -9,7 +9,7 @@ interface authElementDataType {
     title: string,
     subtitle: string
 }
-import logo from "./../../assets/Logo (2).png"
+import logo from "@/assets/Logo (2).png"
 export default function AuthElementTop(params: authElementDataType) {
     const { title, subtitle } = params
     return (

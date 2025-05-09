@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { colorsWhiteMode } from "@/app/const/colors";
+import colorsWhiteMode from "@/app/const/colors";
 export const style = StyleSheet.create({
     initial_page_loader: {
         minHeight: "100%",
@@ -123,5 +123,13 @@ export const style = StyleSheet.create({
      flexDirection:"column",
      alignItems:"flex-end",
      justifyContent:"flex-end"
+    },
+    InputContent_password:{
+      display:"flex",
+      flexDirection:"row",
+      justifyContent:"center",
+      alignItems:"center",
+      width:"84%",
+      marginLeft:14
     }
 })
