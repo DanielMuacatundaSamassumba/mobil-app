@@ -19,11 +19,12 @@ export default function index() {
   }, [])
   return (
     <SafeAreaView style={style.initial_page_loader}>
-      <Image
+      <Image 
         alt='image-initial-loadig'
         source={imageInitialLoad}
         style={style.image_loading}
       />
+      <Text>Daniel Samsssumba</Text>
     </SafeAreaView>
   )
 }
