@@ -49,7 +49,7 @@ export default function login() {
                     )}
                     name="email"
                 />
-                <ErrorMessage errors={errors} name="email" render={({ message }) => <Text style={{ fontSize: 8, color: "red", textAlign: "center" }}>{message}</Text>} />
+                <ErrorMessage errors={errors} name="email" render={({ message }) => <Text style={{ fontSize: 8, color: "red", textAlign: "left" }}>{message}</Text>} />
 
                 <Controller
                     control={control}
@@ -73,7 +73,6 @@ export default function login() {
                 />
                 <ErrorMessage errors={errors} name="password" render={({ message }) => <Text style={{ fontSize: 8, color: "red", textAlign: "center" }}>{message}</Text>} />
 
-                <ErrorMessage errors={errors} name="password" render={({ message }) => <Text style={{ fontSize: 8, color: "red", textAlign: "center" }}>{message}</Text>} />
                 <View style={{ marginTop: 20 }}>
                     <ButtonComponent
                         screen='home'

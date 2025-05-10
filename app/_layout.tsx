@@ -13,38 +13,16 @@ export default function RootLayout() {
 
   return (
     <Stack>
-      <Stack.Screen name="(tabs)"
-        options={{ headerShown: false }}
-      />
-      <Stack.Screen name="index"
-        options={{ headerShown: false }}
-      />
-      <Stack.Screen name="auth/screens/login"
-        options={{ headerShown: false }}
-      />
-      <Stack.Screen
-        name="auth/screens/SignUp"
-        options={{
-          headerShown: true,
-          headerTitle:"Cadastro",
-          headerStyle: {
-            backgroundColor: "#f4511e"
-          },
-          headerTintColor: "#fff",
-        }}
-      />
-      <Stack.Screen
-        name="Home"
-        options={{
-          headerShown: false,
-          headerTitle:"Cadastro",
-          headerStyle: {
-            backgroundColor: "#f4511e"
-          },
-          headerTintColor: "#fff",
-        }}
-      />
-
+      <Stack.Screen name="index" options={{ headerShown: false }} />
+      <Stack.Screen name="auth/screens/login" options={{ headerShown: false }} />
+      <Stack.Screen name="auth/screens/SignUp" options={{
+        headerShown: true,
+        headerTitle: "Cadastro",
+        headerStyle: { backgroundColor: "#f4511e" },
+        headerTintColor: "#fff",
+      }} />
+   
     </Stack>
+
   );
 }

@@ -3,6 +3,6 @@ import React from "react";
 
 export default function TabLayout(){
    <Tabs>
-      <Tabs.Screen name="Home" />
+      <Tabs.Screen name="index"/>
    </Tabs>
 }

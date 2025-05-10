@@ -14,7 +14,7 @@ export default function UseLogin() {
         }
     })
     function onSubmit(data: dataTypes) {
-        router.navigate("/(tabs)/Home")
+        router.navigate("/app/mione")
     }
     return {
         control,

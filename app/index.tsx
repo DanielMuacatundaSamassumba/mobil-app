@@ -24,7 +24,6 @@ export default function index() {
         source={imageInitialLoad}
         style={style.image_loading}
       />
-      <Text>Daniel Samsssumba</Text>
     </SafeAreaView>
   )
 }
